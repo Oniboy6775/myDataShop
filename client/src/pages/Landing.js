@@ -254,17 +254,16 @@ const Landing = () => {
             <div className="">
               <div className=" ">
                 <p className="uppercase text-blue-500">Office address</p>
-                <p>Plot 4A RD E GRA Zaria Kaduna</p>
+                <p>No 98, Oko Erin Road, Off Ibrahim Taiwo Road, Ilorin</p>
               </div>
               <div className=" ">
                 <p className="uppercase text-blue-500">phone number</p>
-                <p>08101134092</p>
-                <p>07044889258</p>
+                <p>08106300862</p>
               </div>
               <div className=" lowercase">
                 <p className="uppercase text-blue-500">Contact us</p>
                 <p>admin@myDataShop.com.ng</p>
-                <p>Mauryatinge@gmail.com</p>
+                <p>ismaeelabdulkareem4@gmail.com</p>
               </div>
             </div>
           </div>
