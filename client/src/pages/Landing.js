@@ -179,7 +179,7 @@ const Landing = () => {
           </div>
         </div>
         <div className="">
-          <img src="./assets/phone3.png" alt="" />
+          <img src="./assets/logo.png" alt="" />
         </div>
       </section>
       <section className="text-center flex flex-col justify-center items-center">
@@ -218,7 +218,9 @@ const Landing = () => {
                 ) : (
                   <IoIosArrowDropdown className="text-4xl absolute top-2 right-4" />
                 )}
-                <h4 className="font-bold text-purple-500">{e.title}</h4>
+                <h4 className="font-bold text-[var(--secondary-500)]">
+                  {e.title}
+                </h4>
                 {e.isActive && (
                   <p className="text-center font-bold">{e.desc}</p>
                 )}
@@ -231,7 +233,7 @@ const Landing = () => {
         <div className="py-2  max-w-[1300px] m-auto w-11/12">
           <div className=" flex justify-between gap-8 md:gap-0 items-center capitalize mb-4">
             <div className="rounded-full hidden w-48 md:block">
-              <img src="./assets/logo.png" alt="" className="img" />
+              <img src="./assets/logo2.png" alt="" className="img" />
             </div>
             <div className="">
               <ul className="underline">
