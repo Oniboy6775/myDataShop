@@ -24,7 +24,7 @@ const DashBoard = () => {
     const userName = encodeURIComponent(user.userName);
     console.log(userName);
     await window.navigator.clipboard.writeText(
-      `https://www.myDataShop.com/register/${userName}`
+      `https://www.myDataShop.com.ng/register/${userName}`
     );
     toast.success("Referral link copied");
   };
